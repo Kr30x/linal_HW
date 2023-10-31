@@ -1,0 +1,917 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english, russian]{babel}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{graphicx}
+\newcommand{\B}[1]{\textbf{#1}}
+\usepackage[left=2.50cm, right=2.00cm, top=2.00cm, bottom=2.00cm]{geometry}
+\begin{document}
+	\begin{center}
+		\B{\underline{ЛАиГ. Домашнее задание 1}}
+	\end{center}
+	1) К17.1(а, б, г) \\
+	\\
+	а) 
+	\begin{math}
+		\left (
+		\begin{array}{rr}
+			1 & n\\
+			0 & 1
+		\end{array}
+		\right )
+	\end{math}
+	$\cdot$ 
+	\begin{math}
+		\left (
+		\begin{array}{rr}
+			1 & m\\
+			0 & 1
+		\end{array}
+		\right )
+	\end{math}
+	=
+	\begin{math}
+		\left (
+		\begin{array}{rr}
+			1 \cdot 1 + n \cdot 0 & 1 \cdot m + n \cdot 1\\
+			0 \cdot 1 + 1 \cdot 0 & 0 \cdot m + 1 \cdot 1
+		\end{array}
+		\right )
+	\end{math}
+	=
+	\begin{math}
+		\left (
+		\begin{array}{rr}
+			1& m + n\\
+			0 & 1
+		\end{array}
+		\right )
+	\end{math}
+	\\
+	\\
+	\\
+	б)
+	\begin{math}
+		\left (
+		\begin{array}{rr}
+			\cos\alpha & -\sin\alpha\\
+			\sin\alpha & \cos\alpha
+		\end{array}
+		\right )
+	\end{math}
+	$\cdot$
+	\begin{math}
+		\left (
+		\begin{array}{rr}
+			\cos\beta& -\sin\beta\\
+			\sin\beta & \cos\beta
+		\end{array}
+		\right )
+	\end{math}
+	= 
+	\begin{math}
+		\left (
+		\begin{array}{rr}
+			\cos\alpha\cos\beta - \sin\alpha\sin\beta& -\cos\alpha\sin\beta - \sin\alpha\cos\beta\\
+			\sin\alpha\cos\beta + \cos\alpha\sin\beta & -\sin\alpha\sin\beta + \cos\alpha\cos\beta
+		\end{array}
+		\right )
+	\end{math}
+	\\
+	\\
+	\\
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\cos(\alpha + \beta)& -\sin(\alpha+\beta)\\
+			\sin(\alpha + \beta) & \cos(\alpha + \beta)
+		\end{array}
+		\right )
+	\end{math}
+	\\
+	\\
+	\\
+	е)
+	\begin{math}
+		\left(
+		\begin{array}{rrr}
+			1& -1 & 3\\
+			-1& 1 & -3\\
+			2& -2 & 6
+		\end{array}
+		\right )
+	\end{math}
+	$\cdot$
+	\begin{math}
+		\left(
+		\begin{array}{rrr}
+			1& 5 & 2\\
+			0& 3 & -1\\
+			2& 1 & -1
+		\end{array}
+		\right )
+	\end{math}
+	= 
+	\begin{math}
+		\left(
+		\begin{array}{rrr}
+			7& 5 & 0\\
+			-7& -5 & 0\\
+			14& 10 & 0
+		\end{array}
+		\right )
+	\end{math}
+	\\
+	\\
+	\\
+	2) К17.2(б)\\
+	\\
+	б)
+	\begin{math}
+		\left(
+		\begin{array}{rrr}
+			3& 0 & 2\\
+			0& 1 & 3\\
+			2& 2 & 0\\
+			0 & 1 & 0
+		\end{array}
+		\right )
+	\end{math}
+	$\cdot$
+	\begin{math}
+		\left(
+		\begin{array}{rrrr}
+			1& 2 & -1 & 2\\
+			-2& -1 & 1 & 2\\
+			2& 1 & 1 & 2
+		\end{array}
+		\right )
+	\end{math}
+	+
+	\begin{math}
+		\left(
+		\begin{array}{rrrr}
+			0& -4 & 6  & 1\\
+			2& 2 & -5 & -2\\
+			2& -2 & 6 & 4\\
+			1 & 3 & 0 & 1
+		\end{array}
+		\right )
+	\end{math}
+	\\\\\\
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rrrr}
+			7& 8 & -1 & 10\\
+			4& 2 & 4 & 8\\
+			-2& 2 & 0 & 8\\
+			-2 & -1 & 1 & 2
+		\end{array}
+		\right )
+	\end{math}
+	+
+	\begin{math}
+		\left(
+		\begin{array}{rrrr}
+			0& -4 & 6  & 1\\
+			2& 2 & -5 & -2\\
+			2& -2 & 6 & 4\\
+			1 & 3 & 0 & 1
+		\end{array}
+		\right )
+	\end{math}
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rrrr}
+			7&  4& 5  & 11\\
+			6& 4 & -1 & 6\\
+			0& 0 & 6 & 12\\
+			-1 & 2 & 1 & 3
+		\end{array}
+		\right )
+	\end{math}
+	\\\\\\
+	3)
+	\\\\
+	A = 
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			2 & -1 \\
+			1 & 0 \\
+		\end{array}
+		\right )
+	\end{math}
+	; B = 
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			a & b \\
+			c & d \\
+		\end{array}
+		\right )
+	\end{math}
+	\\\\\\
+	AB = 
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			2 \cdot a - c  & 2 \cdot b - d \\
+			a & b \\
+		\end{array}
+		\right )
+	\end{math}
+	; BA = 
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			2 \cdot a + b  & -a \\
+			2 \cdot c + d & -c \\
+		\end{array}
+		\right )
+	\end{math}
+	\\\\\\
+	Для того, чтобы B была коммутирующей матрицей для А, необходимо поэлементное равенство матриц AB и BA.
+	\\\\
+	\begin{math}
+		\begin{cases}
+			2 \cdot a - c = 2 \cdot a + b\\
+			2 \cdot b - d = -a\\
+			a = 2 \cdot c + d \\
+			b = -c \\
+		\end{cases}
+	\end{math}
+	\begin{math}
+		\begin{cases}
+			b + c = 0\\
+			a = d - 2 \cdot b\\
+			a = 2 \cdot c + d \\
+			b + c = 0 \\
+		\end{cases}
+	\end{math}
+	\\\\\\\\\\\\\\
+	Выразим все переменные через a, b. Тогда матрица B будет иметь вид:
+	\\\\
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			a  & b \\
+			-b & a + 2 \cdot b \\
+		\end{array}
+		\right )
+	\end{math}
+	\\\\\\
+	Все матрицы такого вида будут коммутативными для матрицы А.
+	\\\\\\
+	4) П802
+	\\\\
+	Вычислим методом мат индукции. \\\\
+	База индукции: \\\\
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\cos\alpha  & -\sin\alpha \\
+			\sin\alpha & \cos\alpha \\
+		\end{array}
+		\right ) ^1
+	\end{math}
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\cos\alpha  & -\sin\alpha \\
+			\sin\alpha & \cos\alpha \\
+		\end{array}
+		\right )
+	\end{math}
+	\\\\
+	Предположение:
+	\\\\
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\cos\alpha  & -\sin\alpha \\
+			\sin\alpha & \cos\alpha \\
+		\end{array}
+		\right ) ^n
+	\end{math}
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\cos (n\alpha)  & -\sin (n\alpha) \\
+			\sin (n\alpha) & \cos (n\alpha) \\
+		\end{array}
+		\right )
+	\end{math}
+	\\\\
+	Шаг индукции :
+	\\\\
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\cos\alpha  & -\sin\alpha \\
+			\sin\alpha & \cos\alpha \\
+		\end{array}
+		\right ) ^{n+1}
+	\end{math}
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\cos\alpha  & -\sin\alpha \\
+			\sin\alpha & \cos\alpha \\
+		\end{array}
+		\right ) ^{n}
+	\end{math}
+	$\cdot$
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\cos\alpha  & -\sin\alpha \\
+			\sin\alpha & \cos\alpha \\
+		\end{array}
+		\right )
+	\end{math}
+	=\\\\
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\cos (n\alpha)  & -\sin (n\alpha) \\
+			\sin (n\alpha) & \cos (n\alpha) \\
+		\end{array}
+		\right )
+	\end{math}
+	$\cdot$
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\cos\alpha  & -\sin\alpha \\
+			\sin\alpha & \cos\alpha \\
+		\end{array}
+		\right )
+	\end{math}
+	=\\\\
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\cos (n\alpha) \cdot \cos\alpha - \sin (n\alpha) \cdot \sin\alpha & -2\sin (n\alpha)\cos\alpha \\
+			2\sin (n\alpha)\cos\alpha & \cos(n\alpha)\cos\alpha - \sin (n\alpha)\sin\alpha \\
+		\end{array}
+		\right )
+	\end{math}
+	=\\\\
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\cos ((n + 1)\alpha)  & -\sin ((n + 1)\alpha) \\
+			\sin ((n + 1)\alpha) & \cos ((n + 1)\alpha) \\
+		\end{array}
+		\right )
+	\end{math}
+	\\\\\\
+	5) П803
+	\\\\
+	Вычислим методом мат индукции. 
+	\\\\
+	База индукции:
+	\\\\
+	\begin{math}
+		\left(
+		\begin{array}{rrrr}
+			\lambda_1 &  &  & 0 \\
+			 & \lambda_2 &  &  \\
+			 & & \ddots &\\
+			 0 & & & \lambda_n
+		\end{array} 
+		\right ) ^1
+	\end{math}
+	= 
+	\begin{math}
+		\left(
+		\begin{array}{rrrr}
+			\lambda_1 &  &  & 0 \\
+			& \lambda_2 &  &  \\
+			& & \ddots &\\
+			0 & & & \lambda_n
+		\end{array} 
+		\right )
+	\end{math}
+	\newpage
+	Предположение:
+	\\\\
+	\begin{math}
+		\left(
+		\begin{array}{rrrr}
+			\lambda_1 &  &  & 0 \\
+			& \lambda_2 &  &  \\
+			& & \ddots &\\
+			0 & & & \lambda_n
+		\end{array} 
+		\right ) ^k
+	\end{math}
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rrrr}
+			\lambda_1^k &  &  & 0 \\
+			& \lambda_2^k &  &  \\
+			& & \ddots &\\
+			0 & & & \lambda_n^k
+		\end{array} 
+		\right )
+	\end{math}
+	\\\\
+	Шаг индукции:
+	\\\\
+	\begin{math}
+		\left(
+		\begin{array}{rrrr}
+			\lambda_1 &  &  & 0 \\
+			& \lambda_2 &  &  \\
+			& & \ddots &\\
+			0 & & & \lambda_n
+		\end{array} 
+		\right ) ^{k + 1}
+	\end{math}
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rrrr}
+			\lambda_1 &  &  & 0 \\
+			& \lambda_2 &  &  \\
+			& & \ddots &\\
+			0 & & & \lambda_n
+		\end{array} 
+		\right ) ^k
+	\end{math}
+	$\cdot$
+	\begin{math}
+		\left(
+		\begin{array}{rrrr}
+			\lambda_1 &  &  & 0 \\
+			& \lambda_2 &  &  \\
+			& & \ddots &\\
+			0 & & & \lambda_n
+		\end{array} 
+		\right )
+	\end{math}
+	=\\\\\\
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rrrr}
+			\lambda_1^k &  &  & 0 \\
+			& \lambda_2^k &  &  \\
+			& & \ddots &\\
+			0 & & & \lambda_n^k
+		\end{array} 
+		\right )
+	\end{math}
+	$\cdot$
+	\begin{math}
+		\left(
+		\begin{array}{rrrr}
+			\lambda_1 &  &  & 0 \\
+			& \lambda_2 &  &  \\
+			& & \ddots &\\
+			0 & & & \lambda_n
+		\end{array} 
+		\right )
+	\end{math}
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rrrr}
+			\lambda_1^{k+1} &  &  & 0 \\
+			& \lambda_2^{k+1} &  &  \\
+			& & \ddots &\\
+			0 & & & \lambda_n^{k+1}
+		\end{array} 
+		\right )
+	\end{math}
+	\\\\\\
+	6) П805\\\\\\
+	Вычислим методом мат индукции
+	\\
+	\\
+	\\
+	База индукции:\\
+	\\
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\lambda  & 1 \\
+			0 & \lambda\\
+		\end{array}
+		\right ) ^1
+	\end{math}
+	= 
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\lambda  & 1 \\
+			0 & \lambda\\
+		\end{array}
+		\right )
+	\end{math}
+	\\\\\\
+	Предположение:
+	\\\\\\
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\lambda  & 1 \\
+			0 & \lambda\\
+		\end{array}
+		\right ) ^n
+	\end{math}
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\lambda^n  & n\cdot \lambda^{n - 1} \\
+			0 & \lambda^n\\
+		\end{array}
+		\right ) 
+	\end{math}
+	\\\\\\
+	Шаг индукции:
+	\\\\\\
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\lambda  & 1 \\
+			0 & \lambda\\
+		\end{array}
+		\right ) ^{n + 1}
+	\end{math}
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\lambda  & 1 \\
+			0 & \lambda\\
+		\end{array}
+		\right ) ^n
+	\end{math}
+	$\cdot$
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\lambda  & 1 \\
+			0 & \lambda\\
+		\end{array}
+		\right )
+	\end{math}
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\lambda^n  & n\cdot \lambda^{n - 1} \\
+			0 & \lambda^n\\
+		\end{array}
+		\right ) 
+	\end{math}
+	$\cdot$
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\lambda  & 1 \\
+			0 & \lambda\\
+		\end{array}
+		\right )
+	\end{math}
+	=\\\\\\
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\lambda^{n + 1}  & \lambda^{n} \cdot 1 + n\cdot \lambda^{n - 1} \cdot \lambda \\
+			0 & \lambda^{n + 1}\\
+		\end{array}
+		\right )
+	\end{math}
+	=
+	\begin{math}
+		\left(
+		\begin{array}{rr}
+			\lambda^{n + 1}  & (n + 1) \cdot \lambda^n \\
+			0 & \lambda^{n + 1}\\
+		\end{array}
+		\right )
+	\end{math}
+	\newpage
+	7) К17.5
+	\\\\
+	a) $f(x) = x^3 - 2x^2 + 1$
+	; A = 
+	\begin{math}
+		\left(
+		\begin{array}{rrr}
+			2  & 1 & 0\\
+			0 & 2 & 0\\
+			1 & 1 & 1
+		\end{array}
+		\right )
+	\end{math}
+	\\\\\\
+	\begin{math}
+		A^2 = 
+		\left(
+		\begin{array}{rrr}
+			4  & 4 & 0\\
+			0 & 4 & 0\\
+			3 & 4 & 1
+		\end{array}
+		\right )
+	\end{math}
+	; 
+	\begin{math}
+		A^3 = 
+		\left(
+		\begin{array}{rrr}
+			8  & 12 & 0\\
+			0 & 8 & 0\\
+			7 & 12 & 1
+		\end{array}
+		\right )
+	\end{math}
+	\\\\\\
+	$f(x) = 
+		\left(
+		\begin{array}{rrr}
+			8  & 12 & 0\\
+			0 & 8 & 0\\
+			7 & 12 & 1
+		\end{array}
+		\right )
+	 - 2 \cdot
+	 	\left(
+	 	\begin{array}{rrr}
+	 		4  & 4 & 0\\
+	 		0 & 4 & 0\\
+	 		3 & 4 & 1
+	 	\end{array}
+	 	\right )
+	  + E = 
+	  \left (
+	  \begin{array}{rrr}
+	  	1  & 4 & 0\\
+	  	0 & 1 & 0\\
+	  	1&  4 & 0
+	  \end{array}
+	  \right )
+	  $
+	  \\\\\\
+	  б) $f(x) = x^3 - 3x^2 + 2$
+	  ; A = 
+	  \begin{math}
+	  	\left(
+	  	\begin{array}{rrr}
+	  		2  & 1 & 1\\
+	  		1 &  2 & 1\\
+	  		1 & 1 & 2
+	  	\end{array}
+	  	\right )
+	  \end{math}
+	  \\\\\\
+	  \begin{math}
+	  	A^2 = 
+	  	\left(
+	  	\begin{array}{rrr}
+	  		6  & 5 & 5\\
+	  		5 & 6 & 5\\
+	  		5 & 5 & 6
+	  	\end{array}
+	  	\right )
+	  \end{math}
+	  ; 
+	  \begin{math}
+	  	A^3 = 
+	  	\left(
+	  	\begin{array}{rrr}
+	  		22  & 21 & 21\\
+	  		21 & 22 & 21\\
+	  		21 & 21 & 22
+	  	\end{array}
+	  	\right )
+	  \end{math}
+	  \\\\\\
+	  $f(x) = 
+	  \left(
+	  \begin{array}{rrr}
+	  	22  & 21 & 21\\
+	  	21 & 22 & 21\\
+	  	21 & 21 & 22
+	  \end{array}
+	  \right )
+	  - 3 \cdot
+	  \left(
+	  \begin{array}{rrr}
+	  	6  & 5 & 5\\
+	  	5 & 6 & 5\\
+	  	5 & 5 & 6
+	  \end{array}
+	  \right )
+	  + 2\cdot E = 
+	  \left (
+	  \begin{array}{rrr}
+	  	6  & 6 & 6\\
+	  	6 & 6 & 6\\
+	  	6 & 6 & 6
+	  \end{array}
+	  \right )
+	  $
+	  \\\\\\
+	  8) К17.7
+	  \\\\\\
+	  Вычислим методом мат индукции
+	  \\\\\\
+	  База индукции: 
+	  \\\\\\ 
+	  \begin{math}
+	  	H  ^ 1 _ {n,n} = 
+	  	\left(
+	  	\begin{array}{ccccc}
+	  		0 & 1 & 0 & \cdots &0 \\
+	  		0& 0 & 1 & \cdots & 0 \\
+	  		\vdots& \vdots & \ddots & \vdots & \vdots \\
+	  		0 & 0 & 0 & \ddots & 1\\
+	  		0 & 0& 0& \cdots & 0
+	  	\end{array} 
+	  	\right )
+	  \end{math}
+	  \newpage
+	  Предположение:
+	  \\\\\\
+	  \begin{math}
+	  	H  ^ k = 
+	  	\left(
+	  	\begin{array}{rr}
+	  		0 & E_{n - k, n - k}\\
+	  		0 & 0
+	  	\end{array} 
+	  	\right )
+	  \end{math}
+	  \\\\\\
+	  Шаг индукции:
+	  \\\\\\
+	  \begin{math}
+	  	H  ^ {k + 1} = 
+	  	\left(
+	  	\begin{array}{lll}
+	  		0 & \cdots & E_{n - k, n - k}\\
+	  		0 & \ddots &  \vdots \\
+	  		0 & \cdots & 0
+	  	\end{array} 
+	  	\right )
+	  	\cdot 
+	  	\left(
+	  	\begin{array}{rr}
+	  		0 & E_{n - 1, n - 1}\\
+	  		0 & 0
+	  	\end{array} 
+	  	\right )
+	  	=
+	  	\left(
+	  	\begin{array}{lll}
+	  		0 & \cdots & E_{n - k - 1, n - k - 1}\\
+	  		0 & \ddots &  \vdots \\
+	  		0 & \cdots & 0
+	  	\end{array} 
+	  	\right )
+	  \end{math}
+	  \\\\\\
+	  Переход возможен, пока k < n. Иначе на месте E стоит 0
+	  \\\\\\
+	  9) П829
+	  \\\\\\
+	  $A^2 - (a + d)A + ad - bc = 0$
+	  ; 
+	   \begin{math}
+	   	A = 
+	   	\left(
+	   	\begin{array}{rr}
+	   		a  & b \\
+	   		c & d \\
+	   	\end{array}
+	   	\right )
+	   \end{math}
+	   \\\\\\
+	   \begin{math}
+	   	A^2 = 
+	   	\left(
+	   	\begin{array}{rr}
+	   		a^2 + bc  & ab + bd \\
+	   		ac  + bd & bc + d ^ 2 \\
+	   	\end{array}
+	   	\right )
+	   \end{math}
+	   \\\\\\
+	   \begin{math}
+	    (a + d)A = 
+	   	\left(
+	   	\begin{array}{rr}
+	   		a ^ 2  + ad & ab + bd \\
+	   		ac + cd & ad + d ^ 2 \\
+	   	\end{array}
+	   	\right )
+	   \end{math}
+	   \\\\\\
+	   \begin{math}
+	   	A ^ 2 - (a + d)A = 
+	   	\left(
+	   	\begin{array}{rr}
+	   		bc -  ad & 0 \\
+	   		0 & bc - ad \\
+	   	\end{array}
+	   	\right )
+	   \end{math}
+	   \\\\\\
+	   \begin{math}
+	   	\left(
+	   	\begin{array}{rr}
+	   		bc -  ad & 0 \\
+	   		0 & bc - ad \\
+	   	\end{array}
+	   	\right )
+	   	+
+	   	\left(
+	   	\begin{array}{rr}
+	   	    ad & 0 \\
+	   		0 & ad \\
+	   	\end{array}
+	   	\right )
+	   	+
+	   	\left(
+	   	\begin{array}{rr}
+	   		-bc & 0 \\
+	   		0 & -bc \\
+	   	\end{array}
+	   	\right )
+	   	= 0
+	   \end{math}
+	   \\\\\\
+	   10) 
+	   \\\\\\
+	   \begin{math}
+	   	A_{n,n} = 
+	   	\left(
+	   	\begin{array}{rrrr}
+	   		a_{1, 1} & a_{1, 2} & \cdots & a_{1, n}\\
+	   		a_{2, 1} & a_{2, 2} & \cdots & a_{2, n}\\
+	   		\vdots & \vdots & \ddots & \vdots\\
+	   		a_{n, 1} & a_{n, 2} & \cdots & a_{n, n}
+	   	\end{array}
+	   	\right )
+	   \end{math}
+	   ; 
+	    \begin{math}
+	   	E_{i,j} = 
+	   	\left(
+	   	\begin{array}{rrrrr}
+	   		0 & \cdots & \cdots & \cdots &  0\\
+	   		\vdots & \ddots & \cdots & \cdots & \vdots\\
+	   		\vdots & \cdots & e_{i, j}  = 1& \cdots & \vdots\\
+	   		\vdots & \cdots & \cdots & \ddots & \vdots\\
+	   		0 & \cdots & \cdots& \cdots & 0
+	   		
+	   	\end{array}
+	   	\right )
+	   \end{math}
+	   \\\\\\
+	    \begin{math}
+	   	E_{i,j} \cdot A =  
+	   	\left(
+	   \begin{array}{ccccc}
+		   	0 & \cdots & \cdots & \cdots & 0\\
+		   	\vdots & \cdots & \cdots & \cdots & \vdots \\
+		   	(i, 1) = a_{j, 1} & (i, 2) = a_{j, 2} & \cdots & (i, j - 1) = a_{j, n - 1} & (i, n) = a_{j, n} \\
+		   	\vdots & \cdots & \cdots & \cdots & \vdots\\
+		   	0 & \cdots & \cdots & \cdots & 0
+	   \end{array}
+	   	\right )
+	   \end{math}
+	   \\\\\\
+	   \begin{math}
+	   	A \cdot E_{i, j} = 
+	   	\left(
+	   	\begin{array}{ccccc}
+	   		0 & \cdots & (1, j) = a_{1, i} & \cdots & 0\\
+	   		\vdots & \cdots & (2, j) = a_{2, i} & \cdots & \vdots \\
+	   		\vdots & \vdots & \vdots & \vdots & \vdots \\
+	   		\vdots & \cdots & (n - 1, j) = a_{n - 1, i} & \cdots & \vdots \\
+	   		0 & \cdots & (n, j)  = a_{n, i} & \cdots & 0
+	   	\end{array}
+	   	\right )
+	   \end{math}
+	   
+	   \end{document}

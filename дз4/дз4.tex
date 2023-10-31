@@ -1,0 +1,69 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{gset}
+\begin{document}
+	\maintitle{ЛАиГ. Домашнее задание 4}
+	1) Найдите многочлен $P(x)$ степени не выше 3, для которого $P(-1) = -4$, $P(0) = 1$, $P(1) = 2$,
+	$P(2) = 2$. \bs
+	$P(x) = ax^3 + bx^2 + cx + d$ \bs
+	$\mtrfor{\rowsix{-1}{1}{-1}{1}{|}{4}}{\rowsix{0}{0}{0}{1}{|}{1}}{\rowsix{1}{1}{1}{1}{|}{2}}{\rowsix{8}{4}{2}{1}{|}{2}}
+	\rsa
+	\mtrfor{\rowsix{-1}{1}{-1}{0}{|}{3}}{\rowsix{0}{0}{0}{1}{|}{1}}{\rowsix{1}{1}{1}{0}{|}{1}}{\rowsix{8}{4}{2}{0}{|}{1}}
+	\rsa 
+	\mtrfor{\rowsix{0}{2}{0}{0}{|}{4}}{\rowsix{0}{0}{0}{1}{|}{1}}{\rowsix{1}{1}{1}{0}{|}{1}}{\rowsix{8}{4}{2}{0}{|}{1}}
+	\rsa \bs \rsa
+	\mtrfor{\rowsix{0}{1}{0}{0}{|}{2}}{\rowsix{0}{0}{0}{1}{|}{1}}{\rowsix{1}{0}{1}{0}{|}{-1}}{\rowsix{8}{0}{2}{0}{|}{-7}}
+	\rsa
+	\mtrfor{\rowsix{0}{1}{0}{0}{|}{2}}{\rowsix{0}{0}{0}{1}{|}{1}}{\rowsix{1}{0}{1}{0}{|}{-1}}{\rowsix{0}{0}{-6}{0}{|}{1}}
+	\rsa 
+	\mtrfor{\rowsix{0}{1}{0}{0}{|}{2}}{\rowsix{0}{0}{0}{1}{|}{1}}{\rowsix{1}{0}{0}{0}{|}{-\frac{5}{6}}}{\rowsix{0}{0}{1}{0}{|}{-\frac{1}{6}}}
+	\rsa \bs \rsa
+	\mtrfor{\rowsix{1}{0}{0}{0}{|}{-\frac{5}{6}}}{\rowsix{0}{1}{0}{0}{|}{2}}{\rowsix{0}{0}{1}{0}{|}{-\frac{1}{6}}}{\rowsix{0}{0}{0}{1}{|}{1}} \bs
+	$
+	\answer{$P(x) = -\frac{5x^3}{6} + 2x^2 - \frac{x}{6} + 1$}
+	\bs
+	2) Найдите многочлен $P(x)$ степени не выше 3, для которого \bs $P(1) = 3, P^{'}(1) = 5, P^{''}(-1) = -3,P^{'}(-1) = 1$ (символы $P^{'}$ и $P^{''}$ обозначают соответственно первую и вторую производную многочлена $P$). \bs
+	$P(x) = ax^3 + bx^2 + cx + d \bs
+	P{'}(x) = 3ax^2 + 2bx + c \bs
+	P{''}(x) = 6ax + 2b \bs
+	\mtrfor{\rowsix{1}{1}{1}{1}{|}{3}}{\rowsix{3}{2}{1}{0}{|}{5}}{\rowsix{-6}{2}{0}{0}{|}{-3}}{\rowsix{3}{-2}{1}{0}{|}{1}}
+	\rsa
+	\mtrfor{\rowsix{1}{1}{1}{1}{|}{3}}{\rowsix{0}{1}{0}{0}{|}{1}}{\rowsix{-6}{2}{0}{0}{|}{-3}}{\rowsix{3}{-2}{1}{0}{|}{1}}
+	\rsa
+	\mtrfor{\rowsix{1}{0}{1}{1}{|}{2}}{\rowsix{0}{1}{0}{0}{|}{1}}{\rowsix{-6}{0}{0}{0}{|}{-5}}{\rowsix{3}{0}{1}{0}{|}{3}}
+	\rsa \bs \rsa
+	\mtrfor{\rowsix{1}{0}{1}{1}{|}{2}}{\rowsix{0}{1}{0}{0}{|}{1}}{\rowsix{1}{0}{0}{0}{|}{\frac{5}{6}}}{\rowsix{3}{0}{1}{0}{|}{3}}
+	\rsa
+	\mtrfor{\rowsix{0}{0}{1}{1}{|}{\frac{7}{12}}}{\rowsix{0}{1}{0}{0}{|}{1}}{\rowsix{1}{0}{0}{0}{|}{\frac{5}{6}}}{\rowsix{0}{0}{1}{0}{|}{\frac{1}{2}}} 
+	\rsa
+	\mtrfor{\rowsix{0}{0}{0}{1}{|}{\frac{1}{12}}}{\rowsix{0}{1}{0}{0}{|}{1}}{\rowsix{1}{0}{0}{0}{|}{\frac{5}{6}}}{\rowsix{0}{0}{1}{0}{|}{\frac{1}{2}}} 
+	\rsa
+	\mtrfor{\rowsix{1}{0}{0}{0}{|}{\frac{5}{6}}}{\rowsix{0}{1}{0}{0}{|}{1}}{\rowsix{0}{0}{1}{0}{|}{\frac{1}{2}}}{\rowsix{0}{0}{0}{1}{|}{\frac{1}{12}}}
+	\bs
+	$
+	\answer{$P(x) = \frac{5x^3}{6} + x^2 + \frac{x}{2} + \frac{1}{12}$}	
+	\bs
+	3) П863
+	\bs 
+	$
+	\mattwo{\rowtwo{3}{-1}}{\rowtwo{5}{-2}} * X * \mattwo{\rowtwo{5}{6}}{\rowtwo{7}{8}} = 
+	\mattwo{\rowtwo{14}{16}}{\rowtwo{9}{10}}
+	\bs
+	\mattwo{\rowtwo{5}{6}}{\rowtwo{7}{8}}  * \mattwo{\rowtwo{3}{-1}}{\rowtwo{5}{-2}} * X * = 
+	\mattwo{\rowtwo{14}{16}}{\rowtwo{9}{10}}
+	\bs
+	\mattwo{\rowtwo{45}{-17}}{\rowtwo{61}{-23}} * X = \mattwo{\rowtwo{14}{16}}{\rowtwo{9}{10}} \bs
+	$
+	Найдем матрицу обратную матрице $A = \mattwo{\rowtwo{45}{-17}}{\rowtwo{61}{-23}}$ \bs
+	$(A | E) = \mattwo{\rowfive{45}{-17}{|}{1}{0}}{\rowfive{61}{-23}{|}{0}{1}}
+	\rsa
+	\mattwo{\rowfive{-3}{1}{|}{4}{-3}}{\rowfive{1}{-1}{|}{19}{-14}}
+	\rsa
+	\mattwo{\rowfive{0}{-2}{|}{61}{-45}}{\rowfive{1}{-1}{|}{19}{-14}}
+	\rsa \bs \rsa
+	\mattwo{\rowfive{1}{-1}{|}{19}{-14}}{\rowfive{0}{2}{|}{-61}{45}}
+	\rsa
+	\mattwo{\rowfive{1}{-1}{|}{19}{-14}}{\rowfive{0}{1}{|}{-\frac{61}{2}}{\frac{45}{2}}}
+	\rsa
+	\mattwo{\rowfive{1}{0}{|}{-\frac{23}{2}}{\frac{17}{2}}}{\rowfive{0}{1}{|}{-\frac{61}{2}}{\frac{45}{2}}}
+	$
+\end{document}
