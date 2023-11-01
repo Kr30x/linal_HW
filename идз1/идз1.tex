@@ -1,0 +1,86 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{gset}
+\begin{document}
+	\maintitle{ЛАиГ ИДЗ 1}
+	1) \textbf{Вычислить} \bs
+	$A = \mattwo{\rowthree{6}{0}{1}}{\rowthree{-3}{-1}{-6}}, B = \mattwo{\rowthree{-1}{3}{4}}{\rowthree{5}{0}{1}}, C = \mattwo{\rowtwo{7}{2}}{\rowtwo{3}{-4}}, D = \mattwo{\rowtwo{18}{6}}{\rowtwo{6}{4}}$ 
+	\bs
+	$
+	B^T = \matthree{\rowtwo{-1}{5}}{\rowtwo{3}{0}}{\rowtwo{4}{1}}, B^T * B = \matthree{\rowthree{26}{-3}{1}}{\rowthree{-3}{9}{12}}{\rowthree{1}{12}{17}}, tr(B^T*B) =  52, tr(B^T*B)*A = \mattwo{\rowthree{312}{0}{52}}{\rowthree{-156}{-52}{-312}} \bs
+	A^T = \matthree{\rowtwo{6}{-3}}{\rowtwo{0}{-1}}{\rowtwo{1}{-6}}, 
+	 tr(B^T*B)*A*A^T = 	\mattwo{\rowtwo{1924}{-1248}}{\rowtwo{-1248}{2392}}, \bs tr(B^T*B)*A*A^T*D = \mattwo{\rowtwo{27144}{6552}}{\rowtwo{-8112}{2080}} \bs
+	 AB^T = \mattwo{\rowtwo{-2}{31}}{\rowtwo{-24}{-21}}, 4AB^T = \mattwo{\rowtwo{-8}{124}}{\rowtwo{-96}{-84}}, BA^T = \mattwo{\rowtwo{-2}{-24}}{\rowtwo{31}{-21}}, -6BA^T =
+	 \mattwo{\rowtwo{12}{144}}{\rowtwo{-186}{126}} \bs
+	 4AB^T - 6BA^T = \mattwo{\rowtwo{4}{268}}{\rowtwo{-282}{42}}, 
+	(4AB^T - 6BA^T)D = \mattwo{\rowtwo{1680}{1096}}{\rowtwo{-4824}{-1524}}, \bs D(2BA^T + 6AB^T) =  \mattwo{\rowtwo{-780}{1476}}{\rowtwo{-424}{156}}, (4AB^T - 6BA^T)D + D(2BA^T + 6AB^T) = \mattwo{\rowtwo{900}{2572}}{\rowtwo{-5248}{-1368}} \bs
+	tr((4AB^T - 6BA^T)D + D(2BA^T + 6AB^T)) = -468 \bs
+	(B - A)(B^T + A^T) = \mattwo{\rowtwo{-11}{-32}}{\rowtwo{78}{-20}}, C^2 = \mattwo{\rowtwo{55}{6}}{\rowtwo{9}{22}}, 4CD = \mattwo{\rowtwo{552}{200}}{\rowtwo{120}{8}} \bs
+	4D^2 = \mattwo{\rowtwo{1440}{528}}{\rowtwo{528}{208}}
+	\bs 
+	\mattwo{\rowtwo{27144}{6552}}{\rowtwo{-8112}{2080}} - 468 *  \mattwo{\rowtwo{-11}{-32}}{\rowtwo{78}{-20}} - \mattwo{\rowtwo{55}{6}}{\rowtwo{9}{22}} -  \mattwo{\rowtwo{552}{200}}{\rowtwo{120}{8}} -  \mattwo{\rowtwo{1440}{528}}{\rowtwo{528}{208}} = \mattwo{\rowtwo{30245}{20794}}{\rowtwo{-45273}{11202}}
+	\bs
+	\answer{\mattwo{\rowtwo{30245}{20794}}{\rowtwo{-45273}{11202}}}
+	 $ 
+	 \newpage
+	 2) Найти все возможные значения AB \bs 
+	 $
+	 A + B = \mtrfor{\rowfor{24}{-22}{52}{-50}}{\rowfor{38}{32}{40}{-56}}{\rowfor{-44}{-12}{8}{-26}}{\rowfor{-50}{-18}{34}{24}}
+	 $
+	 \bs 
+	 Заметим, что у коссиметрической матрицы на главной диагонали стоят нули. Пусть $m_{i,i} \neq 0 \Rightarrow m_{i,i} \neq m_{i,i}$ (как будто бы поменяли индексы местами). Противоречие. Обозначим C = A + B. Значит $\forall i \in \{1, 2, 3, 4\}: c_{i,i} = a_{i,i}$. Для остальных элементов $\forall i, j \in \{1,2,3,4\}, i \neq j: c_{i,j} + c_{j,i} = a_{i,j} + b_{i,j} + a_{i,j} - b_{i,j} = 2 * a_{i,j}$. Чтобы удобно посчитать сумму $A$. Можем сложить $C + C^T$, тогда во всех рассматриваемых элементах будет $2 * a_{i,j}$ (главная диагональ сложится сама с собой, а остальные с нужной парой). \bs Получим матрицу $C + C^T = 2A = \mtrfor{\rowfor{48}{16}{8}{-100}}{\rowfor{16}{64}{28}{-74}}{\rowfor{8}{28}{16}{8}}{\rowfor{-100}{-74}{8}{48}}$ \bs
+	 Отсюда $A = \mtrfor{\rowfor{24}{8}{4}{-50}}{\rowfor{8}{32}{14}{-37}}{\rowfor{4}{14}{8}{4}}{\rowfor{-50}{-37}{4}{24}}$, $B = C - A = \mtrfor{\rowfor{0}{-30}{48}{0}}{\rowfor{30}{0}{26}{-19}}{\rowfor{-48}{-26}{0}{-30}}{\rowfor{0}{19}{30}{0}}$. \bs Тогда единственное возможное значение $AB = \mtrfor{\rowfor{48}{-1774}{-140}{-272}}{\rowfor{288}{-1307}{106}{-1028}}{\rowfor{36}{-252}{676}{-506}}{\rowfor{-1302}{1852}{-2642}{583}}$ \bs
+	 \answer{$\mtrfor{\rowfor{48}{-1774}{-140}{-272}}{\rowfor{288}{-1307}{106}{-1028}}{\rowfor{36}{-252}{676}{-506}}{\rowfor{-1302}{1852}{-2642}{583}}$} \bs
+	 3) $C = \matthree{\rowthree{1}{-4}{-2}}{\rowthree{0}{1}{3}}{\rowthree{0}{0}{1}},
+	 J = \matthree{\rowthree{-1}{1}{0}}{\rowthree{0}{-1}{1}}{\rowthree{0}{0}{-1}},
+	 D = \matthree{\rowthree{1}{4}{-10}}{\rowthree{0}{1}{-3}}{\rowthree{0}{0}{1}}\bs
+	 DC = \matthree{\rowthree{1}{0}{0}}{\rowthree{0}{1}{0}}{\rowthree{0}{0}{1}} \bs
+	 A = CJC^{-1} \Leftrightarrow A^n = CJ^nC^{-1} \bs
+	 S = E + A + A^2 + \cdots + A^2021 \bs
+	 S = CEC^{-1} + CJC^{-1} + \cdots + CJ^{2021}C^{-1} \bs
+	 S = C(E + J + J^2 + \cdots + J^{2021})C^{-1} \bs
+	 J^n = (-1)^n * \matthree{\rowthree{1}{-n}{(\dfrac{n(n-1)}{2})}}{\rowthree{0}{1}{-n}}{\rowthree{0}{0}{1}} \bs
+	 (E + J + J^2 + \cdots + J^{2021}) = \matthree{\rowthree{0}{2021}{4082420}}{\rowthree{0}{0}{2021}}{\rowthree{0}{0}{0}} \bs
+	 S = \matthree{\rowthree{0}{2021}{4068273}}{\rowthree{0}{0}{2021}}{\rowthree{0}{0}{0}}
+	 \bs
+	 \answer{\matthree{\rowthree{0}{2021}{4068273}}{\rowthree{0}{0}{2021}}{\rowthree{0}{0}{0}}}
+	 $ 
+	 \bs 
+	 4) Пусть $u = \matthree{{u_1}}{{u_2}}{{u_3}}, v = \matthree{{v_1}}{{v_2}}{{v_3}}$ \bs
+	 Тогда $uv^t = \matthree{\rowthree{u_1v_1}{u_2v_1}{u_3v_1}}{\rowthree{u_1v_2}{u_2v_2}{u_3v_2}}{\rowthree{u_1v_3}{u_2v_3}{u_3v_3}} = \matthree{\rowthree{-25}{-15}{30}}{\rowthree{-15}{-9}{18}}{\rowthree{-20}{-12}{24}}$ \bs
+	 $u_1:u_2:u_3 = 5t:3t:-6t$ \bs
+	 $v_1:v_2:v_3 = \dfrac{-5}{t}:\dfrac{-3}{t}:\dfrac{-4}{t}$ \bs
+	 След матрицы не изменится в зависимости от выбранного t, потому что $u_iv_i = k_1t * \dfrac{k_2}{t} = k_1*k_2$. Пусть t = 1. \bs
+	 $v^tu = u_1v_1 + u_2v_2 + u_3v_3 = -10$ \bs
+	 Тогда $S ^ {10} = uv^tuv^t\cdots = u*(v^tu)^{10}v^t = \matthree{{5}}{{3}}{{-6}} * 10 * \matthree{{5}}{{3}}{{-4}} = -100$ 
+	 \answer{-100}  
+	 \bs
+	 5) Решить СЛУ \bs
+	 a)
+	 $
+	  \mtrfor{\rowsix{-7}{7}{21}{-7}{|}{0}}{\rowsix{5}{0}{0}{15}{|}{9}}{\rowsix{6}{-4}{-12}{10}{|}{-2}}{\rowsix{9}{-7}{-21}{13}{|}{0}}
+	 \rsa
+	 \mtrfor{\rowsix{1}{-1}{-3}{1}{|}{0}}{\rowsix{5}{0}{0}{15}{|}{9}}{\rowsix{6}{-4}{-12}{10}{|}{-2}}{\rowsix{9}{-7}{-21}{13}{|}{0}}
+	 \rsa
+	 \mtrfor{\rowsix{1}{-1}{-3}{1}{|}{0}}{\rowsix{0}{5}{15}{10}{|}{9}}{\rowsix{0}{2}{6}{4}{|}{-2}}{\rowsix{0}{2}{6}{4}{|}{0}}
+	 $\bs
+	 По последним двум строкам матрицы можно сделать вывод, что СЛУ несовместна. \bs
+	 б) 
+	 $
+	 \mtrfor{\rowsix{-7}{7}{21}{-7}{|}{-35}}{\rowsix{5}{0}{0}{15}{|}{0}}{\rowsix{6}{-4}{12}{10}{|}{20}}{\rowsix{9}{-7}{-21}{13}{|}{35}}
+	 \rsa 
+	 \mtrfor{\rowsix{1}{-1}{-3}{1}{|}{5}}{\rowsix{5}{0}{0}{15}{|}{0}}{\rowsix{6}{-4}{12}{10}{|}{20}}{\rowsix{9}{-7}{-21}{13}{|}{35}}
+	 \rsa
+	 \mtrfor{\rowsix{1}{-1}{-3}{1}{|}{5}}{\rowsix{0}{5}{15}{10}{|}{-25}}{\rowsix{0}{2}{30}{4}{|}{-10}}{\rowsix{0}{2}{6}{4}{|}{-10}}	
+	 \rsa \bs \rsa
+	 \mtrfor{\rowsix{1}{-1}{-3}{1}{|}{5}}{\rowsix{0}{5}{15}{10}{|}{-25}}{\rowsix{0}{2}{30}{4}{|}{-10}}{\rowsix{0}{0}{1}{0}{|}{0}} 
+	 \rsa 
+	 \mtrfor{\rowsix{1}{-1}{-3}{1}{|}{5}}{\rowsix{0}{1}{3}{2}{|}{-5}}{\rowsix{0}{1}{15}{2}{|}{-5}}{\rowsix{0}{0}{1}{0}{|}{0}}
+	 \rsa
+	 \mtrfor{\rowsix{1}{-1}{0}{1}{|}{5}}{\rowsix{0}{1}{0}{2}{|}{-5}}{\rowsix{0}{1}{0}{2}{|}{-5}}{\rowsix{0}{0}{1}{0}{|}{0}} 
+	 \rsa \bs \rsa
+	 \mtrfor{\rowsix{1}{-1}{0}{1}{|}{5}}{\rowsix{0}{1}{0}{2}{|}{-5}}{\rowsix{0}{0}{1}{0}{|}{0}}{\rowsix{0}{0}{0}{0}{|}{0}}
+	 \rsa
+	 \mtrfor{\rowsix{1}{0}{0}{3}{|}{0}}{\rowsix{0}{1}{0}{2}{|}{-5}}{\rowsix{0}{0}{1}{0}{|}{0}}{\rowsix{0}{0}{0}{0}{|}{0}}
+	 $\bs
+	 СЛУ совместна, имеет решения вида $\mtrfor{{-3x_4}}{{-5 - 2x_4}}{{0}}{{x_4 \in \mathbb{R}}}$. \bs Частным решением будет $\mtrfor{{-3}}{{-7}}{{0}}{{1}}$
+	 \end{document}
