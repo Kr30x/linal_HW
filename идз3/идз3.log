@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.1)  1 NOV 2023 12:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.1)  5 NOV 2023 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./дз7.tex
-(дз7.tex
+**./идз3.tex
+(идз3.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -429,8 +429,8 @@ ex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box54
-) (дз7.aux)
-\openout1 = `дз7.aux'.
+) (идз3.aux)
+\openout1 = `идз3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -519,298 +519,127 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
 (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
+Underfull \hbox (badness 10000) in paragraph at lines 6--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
+Underfull \hbox (badness 10000) in paragraph at lines 6--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
+Underfull \hbox (badness 10000) in paragraph at lines 6--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Overfull \hbox (42.02841pt too wide) in paragraph at lines 6--60
-[] \U/msa/m/n/12   []   []   []  
- []
-
-
-Overfull \hbox (18.56984pt too wide) in paragraph at lines 6--60
-\U/msa/m/n/12   []   \OMS/cmsy/m/n/12 ^^@ [] \U/msa/m/n/12   []   []  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Overfull \hbox (17.48676pt too wide) in paragraph at lines 6--60
-[] \U/msa/m/n/12   []   []   []  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--60
+Underfull \hbox (badness 10000) in paragraph at lines 6--32
 
  []
 
 [1
 
-{C:/Users/user/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-Overfull \hbox (1.56056pt too wide) detected at line 60
-\OML/cmm/m/it/12 B[] \OT1/cmr/m/n/12 = 3\OML/cmm/m/it/12 A[] \OMS/cmsy/m/n/12 ^
-^@ \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 A[] B[] \OT1/cmr/m/n/12 = 2\OML/cmm/m/it/1
-2 A[] \OT1/cmr/m/n/12 + 3\OML/cmm/m/it/12 A[] B[] \OT1/cmr/m/n/12 = \OMS/cmsy/m
-/n/12 ^^@\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 A[] \OT1/cmr/m/n/12 + 2\OML/cmm/m/it
-/12 A[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 A[] B[] \OT1/cmr/m/n/12 = 2\OML/cmm/
-m/it/12 A[] \OT1/cmr/m/n/12 + 3\OML/cmm/m/it/12 A[]
- []
-
-
-LaTeX Warning: Command \cyri invalid in math mode on input line 60.
-
-Missing character: There is no � in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--106
+{C:/Users/user/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 33--90
 
  []
 
 
-Overfull \hbox (35.94437pt too wide) in paragraph at lines 60--106
-\OT1/cmr/m/n/12 = 12\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 A[]; A[]; B[]; A[]\OMS/c
-msy/m/n/12 j \OT1/cmr/m/n/12 + 18\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 A[]; A[]; B
-[]; A[]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 + 9\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12
- A[]; A[]; B[]; B[]\OMS/cmsy/m/n/12 j ^^@ \OT1/cmr/m/n/12 2\OMS/cmsy/m/n/12 j\O
-ML/cmm/m/it/12 A[]; B[]; B[]; B[]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 =
- []
-
-
-Overfull \hbox (42.19011pt too wide) in paragraph at lines 60--106
-\OT1/cmr/m/n/12 = 12\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 A[]; A[]; B[]; A[]\OMS/c
-msy/m/n/12 j \OT1/cmr/m/n/12 + 18\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 A[]; A[]; B
-[]; A[]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 + 18\OMS/cmsy/m/n/12 j\OML/cmm/m/it/1
-2 A[]; A[]; B[]; A[]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 + 27\OMS/cmsy/m/n/12 j\O
-ML/cmm/m/it/12 A[]; A[]; B[]; A[]\OMS/cmsy/m/n/12 j ^^@
- []
-
-
-Overfull \hbox (42.19011pt too wide) in paragraph at lines 60--106
-\OT1/cmr/m/n/12 = 12\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 A[]; A[]; B[]; A[]\OMS/c
-msy/m/n/12 j \OT1/cmr/m/n/12 + 18\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 A[]; A[]; B
-[]; A[]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 + 18\OMS/cmsy/m/n/12 j\OML/cmm/m/it/1
-2 A[]; A[]; B[]; A[]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 + 27\OMS/cmsy/m/n/12 j\O
-ML/cmm/m/it/12 A[]; A[]; B[]; A[]\OMS/cmsy/m/n/12 j ^^@
- []
-
-
-Overfull \hbox (42.19011pt too wide) in paragraph at lines 60--106
-\OT1/cmr/m/n/12 = 12\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 A[]; A[]; B[]; A[]\OMS/c
-msy/m/n/12 j \OT1/cmr/m/n/12 + 18\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 A[]; A[]; B
-[]; A[]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 + 18\OMS/cmsy/m/n/12 j\OML/cmm/m/it/1
-2 A[]; A[]; B[]; A[]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 + 27\OMS/cmsy/m/n/12 j\O
-ML/cmm/m/it/12 A[]; A[]; B[]; A[]\OMS/cmsy/m/n/12 j ^^@
- []
-
-
-Overfull \hbox (42.19011pt too wide) in paragraph at lines 60--106
-\OT1/cmr/m/n/12 = 12\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 A[]; A[]; B[]; A[]\OMS/c
-msy/m/n/12 j \OT1/cmr/m/n/12 + 18\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 A[]; A[]; B
-[]; A[]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 + 18\OMS/cmsy/m/n/12 j\OML/cmm/m/it/1
-2 A[]; A[]; B[]; A[]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 + 27\OMS/cmsy/m/n/12 j\O
-ML/cmm/m/it/12 A[]; A[]; B[]; A[]\OMS/cmsy/m/n/12 j ^^@
- []
-
-
-Overfull \hbox (15.09343pt too wide) in paragraph at lines 60--106
-\OT1/cmr/m/n/12 8\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 A[]; A[]; B[]; A[]\OMS/cmsy
-/m/n/12 j ^^@ \OT1/cmr/m/n/12 12\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 A[]; A[]; B[
-]; A[]\OMS/cmsy/m/n/12 j ^^@ \OT1/cmr/m/n/12 12\OMS/cmsy/m/n/12 j\OML/cmm/m/it/
-12 A[]; A[]; B[]; A[]\OMS/cmsy/m/n/12 j ^^@ \OT1/cmr/m/n/12 18\OMS/cmsy/m/n/12 
-j\OML/cmm/m/it/12 A[]; A[]; B[]; A[]\OMS/cmsy/m/n/12 j[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--106
+Underfull \hbox (badness 10000) in paragraph at lines 33--90
 
  []
 
 
-Overfull \hbox (29.71803pt too wide) in paragraph at lines 60--106
-\OT1/cmr/m/n/12 12\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 A[]; A[]; B[]; A[]\OMS/cms
-y/m/n/12 j \OT1/cmr/m/n/12 + 18\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 A[]; A[]; B[]
-; A[]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 + 18\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 
-A[]; A[]; B[]; A[]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 + 27\OMS/cmsy/m/n/12 j\OML
-/cmm/m/it/12 A[]; A[]; B[]; A[]\OMS/cmsy/m/n/12 j ^^@
+Overfull \hbox (24.97362pt too wide) in paragraph at lines 33--90
+[] [][] \OMS/cmsy/m/n/12 ^^A [][] [][] ^^A \OML/cmm/m/it/12 X \OT1/cmr/m/n/12 =
+ [] [] 
  []
 
 
-Overfull \hbox (27.5655pt too wide) in paragraph at lines 60--106
-\OT1/cmr/m/n/12 8\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 A[]; A[]; B[]; A[]\OMS/cmsy
-/m/n/12 j ^^@ \OT1/cmr/m/n/12 12\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 A[]; A[]; B[
-]; A[]\OMS/cmsy/m/n/12 j ^^@ \OT1/cmr/m/n/12 12\OMS/cmsy/m/n/12 j\OML/cmm/m/it/
-12 A[]; A[]; B[]; A[]\OMS/cmsy/m/n/12 j ^^@ \OT1/cmr/m/n/12 18\OMS/cmsy/m/n/12 
-j\OML/cmm/m/it/12 A[]; A[]; B[]; A[]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--106
+Underfull \hbox (badness 10000) in paragraph at lines 33--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--106
+Underfull \hbox (badness 10000) in paragraph at lines 33--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--106
+Underfull \hbox (badness 10000) in paragraph at lines 33--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--106
+Underfull \hbox (badness 10000) in paragraph at lines 33--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--106
+Underfull \hbox (badness 10000) in paragraph at lines 33--90
 
  []
 
 
-Overfull \hbox (19.12648pt too wide) in paragraph at lines 60--106
-\OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 a \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 x\OT1/
-cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^A [] \OT1/cmr/m/n/12 =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--106
+Underfull \hbox (badness 10000) in paragraph at lines 33--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--106
+Underfull \hbox (badness 10000) in paragraph at lines 33--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--106
+Underfull \hbox (badness 10000) in paragraph at lines 33--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--106
+Underfull \hbox (badness 10000) in paragraph at lines 33--90
 
  []
 
-[3] [4] [5] (дз7.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--90
+
+ []
+
+[2] [3] [4] (идз3.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5241 strings out of 475248
- 81460 string characters out of 5758285
- 1979801 words of memory out of 5000000
- 26704 multiletter control sequences out of 15000+600000
- 564335 words of font info for 56 fonts, out of 8000000 for 9000
+ 5249 strings out of 475248
+ 81534 string characters out of 5758285
+ 1967801 words of memory out of 5000000
+ 26708 multiletter control sequences out of 15000+600000
+ 567585 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,13n,79p,1517b,204s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,9n,79p,892b,204s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\user\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm120
 0.pk> <C:\Users\user\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx
 1200.pk><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
@@ -818,15 +647,14 @@ s/cm/cmex10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmmi12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmmi8.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/user/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/user/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/user/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/user/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Use
-rs/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm1
-0.pfb>
-Output written on дз7.pdf (5 pages, 149026 bytes).
+TeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/user/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/user/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/user/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/user
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on идз3.pdf (4 pages, 128376 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
+ 174 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
