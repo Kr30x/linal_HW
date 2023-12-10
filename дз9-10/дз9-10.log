@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.6)  20 NOV 2023 20:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.6)  5 DEC 2023 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**дз8.tex
-(./дз8.tex
+**дз9-10.tex
+(./дз9-10.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -416,8 +416,8 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box54
 )
-(./дз8.aux)
-\openout1 = `дз8.aux'.
+(./дз9-10.aux)
+\openout1 = `дз9-10.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -503,177 +503,47 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
 
-Overfull \hbox (28.00392pt too wide) in paragraph at lines 6--42
-\T2A/cmr/m/n/12 �) $[] \OT1/cmr/m/n/12 = [] = [] = [] = [] =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
 
-Overfull \hbox (17.87961pt too wide) in paragraph at lines 6--42
-\T2A/cmr/m/n/12 �) $[] \OT1/cmr/m/n/12 = [] = [] = [] = [] =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
  []
 
 
-Overfull \hbox (36.04436pt too wide) in paragraph at lines 6--42
-[] \U/msa/m/n/12   []   [] \OT1/cmr/m/n/12 = [] \U/msa/m/n/12  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Overfull \hbox (45.18748pt too wide) in paragraph at lines 6--42
-\OML/cmm/m/it/12 z[] \OT1/cmr/m/n/12 = [] = [] = [] =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--42
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
  []
 
@@ -681,138 +551,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--42
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}]
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 43--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--54
-
- []
-
-<img.png, id=19, 1063.975pt x 663.47874pt>
-File: img.png Graphic file (type png)
-<use img.png>
-Package pdftex.def Info: img.png  used on input line 54.
-(pdftex.def)             Requested size: 426.79134pt x 266.13596pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--71
-
- []
-
-[3 <./img.png>] [4] (./дз8.aux) ) 
+(./дз9-10.aux) ) 
 Here is how much of TeX's memory you used:
- 5235 strings out of 476025
- 80700 string characters out of 5790018
- 1879388 words of memory out of 5000000
- 25623 multiletter control sequences out of 15000+600000
- 521803 words of font info for 56 fonts, out of 8000000 for 9000
+ 5216 strings out of 476025
+ 80522 string characters out of 5790018
+ 1854388 words of memory out of 5000000
+ 25609 multiletter control sequences out of 15000+600000
+ 518553 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,10n,76p,565b,204s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfon
-ts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/am
-sfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
-c/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
-cm-super/sfrm1200.pfb>
-Output written on дз8.pdf (4 pages, 193237 bytes).
+ 72i,5n,76p,310b,204s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx
+1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm12
+00.pfb>
+Output written on дз9-10.pdf (1 page, 73057 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 39 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
