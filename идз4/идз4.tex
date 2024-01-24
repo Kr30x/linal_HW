@@ -1,0 +1,474 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{gset}
+\setcounter{MaxMatrixCols}{50}
+\begin{document}
+	\maintitle{ЛАиГ ИДЗ 4}
+	1. Найти $x$ такие, что $A - xE$ необратима ($\det = 0$) \\
+	
+	$A = \mattwo{-6 - 12i & -3 -8i}{6 + 16i & 3 + 12i}$ \\
+	
+	$x = a + bi, \quad xE = \mattwo{a + bi & 0}{0 & a + bi}$\\
+	
+	$A - xE = \mattwo{-6-a - (12+b)i & -3 - 8i}{6 + 16i & 3 - a + (12 - b)i}$ \\
+	
+	$|A - xE| = (-6-a -(12+b)i) * (3 - a + (12 - b)i) - (-3 - 8i) * (6 + 16i) = a^2 + 3a - b^2 + 2i * ab + 3i * b + 16 - 12i$ \\
+	
+	Решим уравнение $a^2 + 3a - b^2 + 2i * ab + 3i * b + 16 - 12i = 0$ \\
+	
+	$\begin{cases}
+		a^2 + 3a - b ^ 2 + 16 = 0 \\
+		2ab + 3b - 12 = 0
+	 \end{cases}
+	 $
+	 \sspace
+	 
+	 $\left(\begin{matrix}
+	 	-a & -a^2-3*a-16 \\
+	 	2*a+3 & 12
+	 \end{matrix}\right)$ \\
+	 
+	 1) $a \neq 0$ \\
+	 
+	 $
+	 \left(\begin{matrix}
+	 	-a & -a^2-3*a-16 \\
+	 	2*a+3 & 12
+	 \end{matrix}\right)
+	 \rsa
+	 \left(\begin{matrix}
+	 	-a & -a^2-3*a-16 \\
+	 	0 & \frac{-2*a^3-9*a^2-29*a-48}{a}
+	 \end{matrix}\right) \\
+	 $\\
+	 
+	 1.1) $a \neq 2a^3 + 9a^2 + 29a + 48$\\
+	 
+	 $
+	 \begin{cases}
+ 		-a*b = -a^2-3*a-16 \\
+ 		0 = \frac{-2*a^3-9*a^2-29*a-48}{a}
+	 \end{cases}
+	 $ \\
+	 
+	 Нет решений \\
+	 
+	 1.2) $2a^3 + 9a^2 + 29a + 48 = 0$ \\
+	 
+	 $\left(\begin{matrix}
+	 	-a & -a^2-3*a-16 \\
+	 	0 & 0
+	 \end{matrix}\right)$ \sspace
+	 
+	 $
+	 -a*b = -a^2-3*a-16
+	 $
+	 \\
+	 
+	 Общее решение: $x = a + \frac{a^2+3*a+16}{a}i$ \\
+	 
+	 2) $a = 0$ \\ 
+	 
+	 $\left(\begin{matrix}
+	 	0 & -a^2-3*a-16 \\
+	 	2*a+3 & 12
+	 \end{matrix}\right)$ \sspace
+	 
+	 $\begin{cases}
+	 		0 = -a^2-3*a-16 \\
+	 		\left(2*a+3\right)*b = 12
+	 	\end{cases}$ \\
+	 	
+	 Нет решений \\
+	 
+	 \answer{$x = a + \frac{a^2+3*a+16}{a}i$} \bs
+	 2. Вычислить \\
+	 
+	 \[\sqrt[4]{-\dfrac{81}{2} - \dfrac{81\sqrt{3}}{2}i}\] \\
+	 
+	 Пусть $z \in \mathbb{C}, z = a + bi = |z|(\cos(\phi) + i\sin(\phi)) = -\dfrac{81}{2} - \dfrac{81\sqrt{3}}{2}i \quad a = -\dfrac{81}{2}, b = \dfrac{81\sqrt{3}}{2}$ \\ 
+	 
+	 $|z| = \sqrt{\dfrac{3^8}{4} + \dfrac{3 * 3^8}{4}} = \sqrt{\dfrac{4 * 3 ^ 8}{4}} = \sqrt{3^8} = 3^4$ \\
+	 
+	 $\cos(\phi) = \dfrac{a}{|z|} = \dfrac{\dfrac{-81}{2}}{81} = \dfrac{-1}{2}$ \\
+	 
+	 $\sin(\phi) = \dfrac{b}{|z|} = \dfrac{\dfrac{81\sqrt{3}}{2}}{81} = \dfrac{\sqrt{3}}{2}$ \sspace
+	 
+	 $\begin{cases} \cos(\phi) = \dfrac{-1}{2} \\ 
+	 \sin(\phi) = \dfrac{\sqrt{3}}{2}
+	 \end{cases} \Rightarrow \phi = \dfrac{2\pi}{3} + 2\pi k, k \in \mathbb{N}$ \sspace
+	 
+	 $z = 81(\cos(\dfrac{2\pi}{3}) + i\sin(\dfrac{2\pi}{3}))$
+	 \\ 
+	 
+	 По формуле Муавра \\
+	 
+	 $\sqrt[4]{z} = \sqrt[4]{81}(\cos(\dfrac{\pi}{6}) + i\sin(\dfrac{\pi}{6})) = 3(\dfrac{\sqrt{3}}{2} + i\dfrac{1}{2}) = \dfrac{3\sqrt{3}}{2} + \dfrac{3}{2}i$ \\
+	 
+	 $\answer{\dfrac{3\sqrt{3}}{2} + \dfrac{3}{2}i}$ \\
+	 3. Доказать, что векторы ЛНЗ при всех $a$, для каждого $a$ дополнить эти векторы до базиса $R^5$. \sspace
+	 
+	 $v_1 = \mtrfive{-4}{2}{0}{1}{-6}, v_2 = \mtrfive{12}{-1}{4}{-8}{28}, v_3 = \mtrfive{-4}{\frac{13}{4}}{1}{a}{-\frac{3}{4}}$ \\ 
+	 
+	 Запишем векторы в строки матрицы $3 \times 5$. Приведем матрицу к ступенчатому виду  \\
+	 
+	 $
+	 \left(\begin{matrix}
+	 	-4 & 2 & 0 & 1 & -6 \\
+	 	12 & -1 & 4 & -8 & 28 \\
+	 	-4 & \frac{13}{4} & 1 & a & \frac{-3}{4}
+	 \end{matrix}\right) \rsa
+	 \left(\begin{matrix}
+	 	-4 & 2 & 0 & 1 & -6 \\
+	 	0 & 5 & 4 & -5 & 10 \\
+	 	-4 & \frac{13}{4} & 1 & a & \frac{-3}{4}
+	 \end{matrix}\right) \rsa 
+	 \left(\begin{matrix}
+	 	-4 & 2 & 0 & 1 & -6 \\
+	 	0 & 5 & 4 & -5 & 10 \\
+	 	0 & \frac{5}{4} & 1 & a-1 & \frac{21}{4}
+	 \end{matrix}\right) \rsa
+	 \left(\begin{matrix}
+	 	-4 & 2 & 0 & 1 & -6 \\
+	 	0 & 5 & 4 & -5 & 10 \\
+	 	0 & 0 & 0 & \frac{4*a+1}{4} & \frac{11}{4}
+	 \end{matrix}\right)
+	 $ \sspace
+	 
+	 Последняя строка не будет нулевой ни при каких значениях $a$, значит векторы ЛНЗ. \\
+	 
+	 Дополнять до базиса будем разными способами, когда в третьей строке будут разные ведущие элементы, для этого рассмотрим случаи. \\
+	 
+	 1) $\dfrac{4a + 1}{4} = 0, a = -0,25$ \\
+	 
+	 $\left(\begin{matrix}
+	 	-4 & 2 & 0 & 1 & -6 \\
+	 	0 & 5 & 4 & -5 & 10 \\
+	 	0 & 0 & 0 & 0 & \frac{11}{4}
+	 \end{matrix}\right)$ \sspace
+	 
+	 В данном случае не хватает $e_3, e_4$, базис будет выглядеть так: $\{v_1, v_2, v_3, e_3, e_4\}$ \\
+	 
+	 2) $a \neq -0,25$ \\ 
+	 
+	 В данном случае не хватает $e_3, e_5$, базис будет выглядеть так: $\{v_1, v_2, v_3, e_3, e_5\}$ \\
+	 
+	 $\answer{\begin{cases} \{v_1, v_2, v_3, e_3, e_4\}, a = -0,25 \\ \{v_1, v_2, v_3, e_3, e_5\}, a \neq -0,25 \end{cases}}$ \\
+	 4. Подпространство $U$ в пространстве $R^5$ задано линейной оболочкой векторав $v_1, v_2, v_3, v_4$. \\
+	 
+	 \[v_1 = \mtrfive{10}{25}{5}{17}{26}, v_2 = \mtrfive{-30}{-35}{-25}{-33}{-34}, v_3 = \mtrfive{2}{-3}{2}{0}{-4}, v_4 = \mtrfive{-10}{-10}{-5}{-11}{-8}\]  \\
+	 
+	 a) Выбрать среди векторов $v_1, v_2, v_3, v_4$ базис. \\
+	 
+	 Для того, чтобы найти базис, запишем векторы в строки матрицы и приведем ее к ступенчатому виду, если будут нулевые строки, значит какие-то векторы можно выразить через остальные. \\
+	 
+	 $\left(\begin{matrix}
+	 	10 & 25 & 5 & 17 & 26 \\
+	 	-30 & -35 & -25 & -33 & -34 \\
+	 	2 & -3 & 2 & 0 & -4 \\
+	 	-10 & -10 & -5 & -11 & -8
+	 \end{matrix}\right) \rsa 
+	 \left(\begin{matrix}
+	 	10 & 25 & 5 & 17 & 26 \\
+	 	0 & 40 & -10 & 18 & 44 \\
+	 	2 & -3 & 2 & 0 & -4 \\
+	 	-10 & -10 & -5 & -11 & -8
+	 \end{matrix}\right) \rsa \bs \rsa
+	 \left(\begin{matrix}
+	 	10 & 25 & 5 & 17 & 26 \\
+	 	0 & 40 & -10 & 18 & 44 \\
+	 	0 & -8 & 1 & \frac{-17}{5} & \frac{-46}{5} \\
+	 	-10 & -10 & -5 & -11 & -8
+	 \end{matrix}\right) \rsa
+	 \left(\begin{matrix}
+	 	10 & 25 & 5 & 17 & 26 \\
+	 	0 & 40 & -10 & 18 & 44 \\
+	 	0 & -8 & 1 & \frac{-17}{5} & \frac{-46}{5} \\
+	 	0 & 15 & 0 & 6 & 18
+	 \end{matrix}\right) \rsa \bs \rsa
+	 \left(\begin{matrix}
+	 	10 & 25 & 5 & 17 & 26 \\
+	 	0 & 40 & -10 & 18 & 44 \\
+	 	0 & 0 & -1 & \frac{1}{5} & \frac{-2}{5} \\
+	 	0 & 15 & 0 & 6 & 18
+	 \end{matrix}\right) \rsa
+	 \left(\begin{matrix}
+	 	10 & 25 & 5 & 17 & 26 \\
+	 	0 & 40 & -10 & 18 & 44 \\
+	 	0 & 0 & -1 & \frac{1}{5} & \frac{-2}{5} \\
+	 	0 & 0 & \frac{15}{4} & \frac{-3}{4} & \frac{3}{2}
+	 \end{matrix}\right) \rsa
+	 \left(\begin{matrix}
+	 	10 & 25 & 5 & 17 & 26 \\
+	 	0 & 40 & -10 & 18 & 44 \\
+	 	0 & 0 & -1 & \frac{1}{5} & \frac{-2}{5} \\
+	 	0 & 0 & 0 & 0 & 0
+	 \end{matrix}\right)
+	 $\bs
+	 
+	 Получили нулевую строку, значит $v_4 = \lambda_1 v_1 + \lambda_2 v_2 + \lambda_3 v_3$. \\
+	 
+	 Значит $<v_1, v_2, v_3, v_4> = <v_1, v_2, v_3>$. Больше строк нулевых нет, значит $v_1, v_2, v_3$ ЛНЗ. Они и есть базис, так как $<v_1, v_2, v_3> = U$. \\
+	 
+	 б) Среди векторов $u_1, u_2$ выбрать те, которые лежат в $U$ и выразить их через базис. \\
+	 
+	 \[u_1 = \mtrfive{23}{23}{18}{24}{21}, 
+	   u_2 = \mtrfive{3}{-3}{1}{1}{-5}\] \\
+	   
+	 Пусть $u_1 \in U$, тогда $u_1 = \lambda_1 v_1 + \lambda_2 v_2 + \lambda_3 v_3$, то есть соответственная СЛУ совместна. Проверим это. \\
+	 
+	 $\begin{cases} u_{1_1} = \lambda_1 v_{1_1} + \lambda_2 v_{2_1} + \lambda_3 v_{3_1} \\ 
+	 u_{1_2} = \lambda_1 v_{1_2} + \lambda_2 v_{2_2} + \lambda_3 v_{3_2} \\
+	 u_{1_3} = \lambda_1 v_{1_3} + \lambda_2 v_{2_3} + \lambda_3 v_{3_3} \\
+	 u_{1_4} = \lambda_1 v_{1_4} + \lambda_2 v_{2_4} + \lambda_3 v_{3_4} \\
+	 u_{1_5} = \lambda_1 v_{1_5} + \lambda_2 v_{2_5} + \lambda_3 v_{3_5} \\
+	 \end{cases} = 
+	 \begin{cases} 23 = 10\lambda_1  -30\lambda_2 + 2\lambda_3 \\ 
+	 23 = 25\lambda_1 -35\lambda_2 -3\lambda_3 \\
+	 18 = 5\lambda_1 -25\lambda_2 + 2\lambda_3 \\
+	 24 = 17\lambda_1 -33\lambda_2 + 0\lambda_3 \\
+	 21 = 26\lambda_1 -34\lambda_2 - 4\lambda_3 \\
+	 \end{cases}
+	 $ \\
+	 
+	 Запишем уравнения в строки матрицы и приведем ее к ступенчатому виду. \\
+	 
+	 $
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 23 \\
+	 	25 & -35 & -3 & 23 \\
+	 	5 & -25 & 2 & 18 \\
+	 	17 & -33 & 0 & 24 \\
+	 	26 & -34 & -4 & 21
+	 \end{array}\right) \rsa
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 23 \\
+	 	0 & 40 & -8 & \frac{-69}{2} \\
+	 	5 & -25 & 2 & 18 \\
+	 	17 & -33 & 0 & 24 \\
+	 	26 & -34 & -4 & 21
+	 \end{array}\right) \rsa 
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 23 \\
+	 	0 & 40 & -8 & \frac{-69}{2} \\
+	 	0 & -10 & 1 & \frac{13}{2} \\
+	 	17 & -33 & 0 & 24 \\
+	 	26 & -34 & -4 & 21
+	 \end{array}\right) \rsa \bs \rsa
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 23 \\
+	 	0 & 40 & -8 & \frac{-69}{2} \\
+	 	0 & -10 & 1 & \frac{13}{2} \\
+	 	0 & 18 & \frac{-17}{5} & \frac{-151}{10} \\
+	 	26 & -34 & -4 & 21
+	 \end{array}\right) \rsa
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 23 \\
+	 	0 & 40 & -8 & \frac{-69}{2} \\
+	 	0 & -10 & 1 & \frac{13}{2} \\
+	 	0 & 18 & \frac{-17}{5} & \frac{-151}{10} \\
+	 	0 & 44 & \frac{-46}{5} & \frac{-194}{5}
+	 \end{array}\right) \rsa
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 23 \\
+	 	0 & 40 & -8 & \frac{-69}{2} \\
+	 	0 & 0 & -1 & \frac{-17}{8} \\
+	 	0 & 18 & \frac{-17}{5} & \frac{-151}{10} \\
+	 	0 & 44 & \frac{-46}{5} & \frac{-194}{5}
+	 \end{array}\right) \rsa \bs \rsa
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 23 \\
+	 	0 & 40 & -8 & \frac{-69}{2} \\
+	 	0 & 0 & -1 & \frac{-17}{8} \\
+	 	0 & 0 & \frac{1}{5} & \frac{17}{40} \\
+	 	0 & 44 & \frac{-46}{5} & \frac{-194}{5}
+	 \end{array}\right) \rsa
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 23 \\
+	 	0 & 40 & -8 & \frac{-69}{2} \\
+	 	0 & 0 & -1 & \frac{-17}{8} \\
+	 	0 & 0 & \frac{1}{5} & \frac{17}{40} \\
+	 	0 & 0 & \frac{-2}{5} & \frac{-17}{20}
+	 \end{array}\right) \rsa
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 23 \\
+	 	0 & 40 & -8 & \frac{-69}{2} \\
+	 	0 & 0 & -1 & \frac{-17}{8} \\
+	 	0 & 0 & 0 & 0 \\
+	 	0 & 0 & \frac{-2}{5} & \frac{-17}{20}
+	 \end{array}\right) \rsa \bs \rsa
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 23 \\
+	 	0 & 40 & -8 & \frac{-69}{2} \\
+	 	0 & 0 & -1 & \frac{-17}{8} \\
+	 	0 & 0 & 0 & 0 \\
+	 	0 & 0 & 0 & 0
+	 \end{array}\right)
+	 $ \\
+	 
+	 СЛУ совместна, значит $u_1 \in U$. Чтобы найти координаты в базисе $v_1, v_2, v_3$, приведем матрицу к УСВ. \\
+	 
+	 $
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 23 \\
+	 	0 & 40 & -8 & \frac{-69}{2} \\
+	 	0 & 0 & -1 & \frac{-17}{8} \\
+	 	0 & 0 & 0 & 0 \\
+	 	0 & 0 & 0 & 0
+	 \end{array}\right) \rsa
+	 \left(\begin{array}{rrr|r}
+	 	1 & 0 & 0 & \frac{9}{16} \\
+	 	0 & 1 & 0 & \frac{-7}{16} \\
+	 	0 & 0 & 1 & \frac{17}{8} \\
+	 	0 & 0 & 0 & 0 \\
+	 	0 & 0 & 0 & 0
+	 \end{array}\right)
+	 $ \sspace
+	 
+	 $u_1 = \dfrac{9}{16}v_1 - \dfrac{7}{16}v_2 + \dfrac{17}{8}v_3$\\ 
+	 
+	 Сделаем то же самое для вектора $u_2$ \\
+	 
+	 $
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 3 \\
+	 	25 & -35 & -3 & -3 \\
+	 	5 & -25 & 2 & 1 \\
+	 	17 & -33 & 0 & 1 \\
+	 	26 & -34 & -4 & -5
+	 \end{array}\right) \rsa 
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 3 \\
+	 	0 & 40 & -8 & \frac{-21}{2} \\
+	 	5 & -25 & 2 & 1 \\
+	 	17 & -33 & 0 & 1 \\
+	 	26 & -34 & -4 & -5
+	 \end{array}\right) \rsa 
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 3 \\
+	 	0 & 40 & -8 & \frac{-21}{2} \\
+	 	0 & -10 & 1 & \frac{-1}{2} \\
+	 	17 & -33 & 0 & 1 \\
+	 	26 & -34 & -4 & -5
+	 \end{array}\right) \rsa \bs \rsa
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 3 \\
+	 	0 & 40 & -8 & \frac{-21}{2} \\
+	 	0 & -10 & 1 & \frac{-1}{2} \\
+	 	0 & 18 & \frac{-17}{5} & \frac{-41}{10} \\
+	 	26 & -34 & -4 & -5
+	 \end{array}\right) \rsa 
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 3 \\
+	 	0 & 40 & -8 & \frac{-21}{2} \\
+	 	0 & -10 & 1 & \frac{-1}{2} \\
+	 	0 & 18 & \frac{-17}{5} & \frac{-41}{10} \\
+	 	0 & 44 & \frac{-46}{5} & \frac{-64}{5}
+	 \end{array}\right) \rsa
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 3 \\
+	 	0 & 40 & -8 & \frac{-21}{2} \\
+	 	0 & 0 & -1 & \frac{-25}{8} \\
+	 	0 & 18 & \frac{-17}{5} & \frac{-41}{10} \\
+	 	0 & 44 & \frac{-46}{5} & \frac{-64}{5}
+	 \end{array}\right) \rsa \bs \rsa
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 3 \\
+	 	0 & 40 & -8 & \frac{-21}{2} \\
+	 	0 & 0 & -1 & \frac{-25}{8} \\
+	 	0 & 0 & \frac{1}{5} & \frac{5}{8} \\
+	 	0 & 44 & \frac{-46}{5} & \frac{-64}{5}
+	 \end{array}\right) \rsa
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 3 \\
+	 	0 & 40 & -8 & \frac{-21}{2} \\
+	 	0 & 0 & -1 & \frac{-25}{8} \\
+	 	0 & 0 & \frac{1}{5} & \frac{5}{8} \\
+	 	0 & 0 & \frac{-2}{5} & \frac{-5}{4}
+	 \end{array}\right) \rsa 
+	 \left(\begin{array}{rrr|r}
+		 10 & -30 & 2 & 3 \\
+		 0 & 40 & -8 & \frac{-21}{2} \\
+		 0 & 0 & -1 & \frac{-25}{8} \\
+		 0 & 0 & 0 & 0 \\
+		 0 & 0 & \frac{-2}{5} & \frac{-5}{4}
+	 \end{array}\right) \rsa \bs \rsa 
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 3 \\
+	 	0 & 40 & -8 & \frac{-21}{2} \\
+	 	0 & 0 & -1 & \frac{-25}{8} \\
+	 	0 & 0 & 0 & 0 \\
+	 	0 & 0 & 0 & 0
+	 \end{array}\right)
+	 $ \\
+	 
+	 $
+	 \left(\begin{array}{rrr|r}
+	 	10 & -30 & 2 & 3 \\
+	 	0 & 40 & -8 & \frac{-21}{2} \\
+	 	0 & 0 & -1 & \frac{-25}{8} \\
+	 	0 & 0 & 0 & 0 \\
+	 	0 & 0 & 0 & 0
+	 \end{array}\right) \rsa
+	 \left(\begin{array}{rrr|r}
+	 	1 & 0 & 0 & \frac{61}{80} \\
+	 	0 & 1 & 0 & \frac{29}{80} \\
+	 	0 & 0 & 1 & \frac{25}{8} \\
+	 	0 & 0 & 0 & 0 \\
+	 	0 & 0 & 0 & 0
+	 \end{array}\right)	
+	 $	\sspace 
+	 
+	 $u_2 \in U, u_2 = \dfrac{61}{80}v_1 + \dfrac{29}{80}v_2 + \dfrac{25}{8}v_3$ \sspace
+	 5. Найти базис и размерность подпространства $U \subseteq R^5$, являющегося множеством решений ОСЛУ. \\
+	 
+	 (только тут я понял, что нам разрешается не писать каждый этап преобразования матриц) \\
+	 
+	 Запишем ОСЛУ в матрицу, приведем ее к УСВ. \\
+	 
+	 $
+	 \left(\begin{array}{rrrrr|r}
+	 	7 & -6 & -7 & -9 & -1 & 0 \\
+	 	7 & -4 & -8 & -11 & 1 & 0 \\
+	 	6 & 0 & -12 & -22 & 2 & 0 \\
+	 	8 & -7 & -6 & -5 & 0 & 0
+	 \end{array}\right) \rsa
+	 \left(\begin{array}{rrrrr|r}
+	 	7 & -6 & -7 & -9 & -1 & 0 \\
+	 	0 & 2 & -1 & -2 & 2 & 0 \\
+	 	0 & 0 & \frac{-24}{7} & \frac{-64}{7} & \frac{-16}{7} & 0 \\
+	 	0 & 0 & 0 & 0 & 0 & 0
+	 \end{array}\right)
+	 $ \\
+	 
+	 Сразу можно определить размерность подпространства как $n - c = 2$, где $n = 5$ - количество переменных (или размер пространства), $c = 3$ - количество главных переменных в улучшенной матрице. \\
+	 
+	 Чтобы найти базис, запишем общее решение. \\
+	 
+	 $
+	 \left(\begin{matrix}
+	 	\frac{-5}{3}*x_4-\frac{5}{3}*x_5 \\
+	 	\frac{-1}{3}*x_4-\frac{4}{3}*x_5 \\
+	 	\frac{-8}{3}*x_4-\frac{2}{3}*x_5 \\
+	 	x_4 \\
+	 	x_5
+	 \end{matrix}\right)
+	 $ \\
+	 
+	 Разделим это решение на 2 вектора, один для $x_4$, другой для $x_5$ \\
+	 
+	 $v_4 = \left(\begin{matrix}
+	 	\frac{-5}{3} \\
+	 	\frac{-1}{3} \\
+	 	\frac{-8}{3} \\
+	 	1 \\
+	 	0
+	 \end{matrix}\right), v_5 = \left(\begin{matrix}
+	 \frac{-5}{3} \\
+	 \frac{-4}{3} \\
+	 \frac{-2}{3} \\
+	 0 \\
+	 1
+	 \end{matrix}\right)$ \sspace
+	 
+	 $U = <v_4, v_5>$
+\end{document}
